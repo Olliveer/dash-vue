@@ -5,8 +5,8 @@
 
       <template #lead>
         <p>
-          Uma dashboard simples que mostra as informações das rotas percorridas
-          em um intervalo de 15 dias.
+          Uma dashboard simples que mostra as informações em gráfico das rotas
+          percorridas em um intervalo de 15 dias.
         </p>
 
         <b-row class="text-center">
@@ -34,8 +34,12 @@
                 Chartjs</b-list-group-item
               >
               <b-list-group-item href="https://vuejs.org/" target="_blank"
-                ><b-icon icon="bootstrap" style="margin-right: 10px"></b-icon>
+                ><b-icon icon="app" style="margin-right: 10px"></b-icon>
                 Vuejs</b-list-group-item
+              >
+              <b-list-group-item href="https://vuex.vuejs.org/" target="_blank"
+                ><b-icon icon="archive" style="margin-right: 10px"></b-icon>
+                Vuex</b-list-group-item
               >
             </b-list-group>
           </b-row>
@@ -45,7 +49,11 @@
       <hr class="my-4" />
 
       <b-row align-h="center">
-        <b-button variant="primary" href="#" style=" width: 200px"
+        <b-button
+          variant="primary"
+          href="https://github.com/Olliveer/dash-vue"
+          target="_blank"
+          style=" width: 200px"
           ><b-icon icon="github" style="margin-right:10px;" />Github</b-button
         >
       </b-row>
