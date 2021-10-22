@@ -14,19 +14,20 @@
       <b-collapse id="nav-collapse" is-nav class="ms-4">
         <b-navbar-nav>
           <b-nav-item href="#">Logo</b-nav-item>
-          <b-nav-item to="/">Home</b-nav-item>
-          <b-nav-item to="/about">About</b-nav-item>
+          <b-nav-item to="/">Dashboard</b-nav-item>
+          <b-nav-item to="/about">Sobre</b-nav-item>
         </b-navbar-nav>
 
         <b-navbar-nav class="ms-auto me-5">
           <b-nav-item-dropdown right>
             <!-- Using 'button-content' slot -->
             <template #button-content>
-              <b-avatar rounded style="color: #FFF"></b-avatar>
-              <span style="color: #FFF; margin-right: 2px">User</span>
+              <span style="color: #FFF; margin-right: 2px"
+                ><b-avatar variant="primary" text="JO"></b-avatar
+              ></span>
             </template>
             <b-dropdown-item href="#">Profile</b-dropdown-item>
-            <b-dropdown-item href="#">Sign Out</b-dropdown-item>
+            <b-dropdown-item href="#">Sair</b-dropdown-item>
           </b-nav-item-dropdown>
         </b-navbar-nav>
       </b-collapse>
