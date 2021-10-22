@@ -20,6 +20,7 @@
 # :pushpin: Conteúdo
 
 - [Tecnologias](#computer-tecnologias)
+- [Executando](#construction_worker-executando)
 - [Autores](#computer-autores)
 - [Licença](#closed_book-licença)
 
@@ -39,6 +40,26 @@ Este projeto foi feito utilizando as seguintes tecnologias:
 - [Axios](https://github.com/axios/axios)
 - [Vuejs](https://vuejs.org/)
 - [Vuex](https://vuex.vuejs.org/)
+
+# :construction_worker: Executando
+
+## 1. Clone o Repositório
+
+```bash
+https://github.com/Olliveer/dash-vue.git
+```
+
+## 2. Instale as Dependencias
+
+```bash
+yarn
+```
+
+## 5. Inicie o server
+
+```bash
+$ yarn serve
+```
 
 # :closed_book: Licença
 
